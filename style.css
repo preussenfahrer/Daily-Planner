@@ -20,6 +20,10 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
+
+  #currentDay {
+    font-size: 3.0em;
+  }
   
   .description{
     white-space: pre-wrap;
@@ -33,19 +37,23 @@ body {
   .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid white;
+    background-color: #d3d3d3;
     
   }
   
+  /* added padding of 0.5em for personal aesthetics */
   .hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px solid #000000;
+    padding: 0.5em;
   }
   
+  /* changed font color to black for easier visibility */
   .past {
     background-color: #d3d3d3;
-    color: white;
+    color: black;
   }
   
   .present {

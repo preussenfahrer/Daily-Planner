@@ -16,81 +16,94 @@
 <!-- Body -->
 <body>
     <header class="jumbotron">
-        <h1 class="display-3">Tabula Rasa</h1>
-        <p class="lead">Each day is a new day, a blank slate. As a testament to this philosophy, the <em>Tabula rasa</em>
-            application is a simple calendar for keeping track of your schedule and making the most of your day.</p>
+        <h1 class="display-3"><em>Tabula Rasa</em></h1>
+        <p class="lead">Each day is a new day, a blank slate. As a testament to this philosophy, <em>Tabula Rasa</em>
+             is a simple calendar application for keeping track of your schedule and making the most of your day, every day.</p>
         <p id="currentDay" class="lead"></p>
     </header>
 
     <!-- Rows containing hours of the day with option to input tasks  -->
     <div class="hours-container">
-        <section class="row">
-            <!-- combined classes for hour block and put in past for coloring purposes -->
-            <section class="hour past">
+        <!-- combined classes for hour block and put in past for coloring purposes -->
+        <section class="row past">
+            <section class="hour">
                 06:00 AM
             </section>
+            <button class="saveBtn">Save</button>
         </section>
-        <section class="row">
-            <section class="hour past">
+        <section class="row past">
+            <section class="hour">
                 07:00 AM
             </section>
+            <button class="saveBtn">Save</button>
         </section>
-        <section class="row">
-            <section class="hour past">
+        <section class="row past">
+            <section class="hour">
                 08:00 AM
             </section>
+            <button class="saveBtn">Save</button>
         </section>
-        <section class="row">
-            <!-- class of present added for workday time -->
-            <section class="hour present">
+        <!-- class of present added for workday time -->
+        <section class="row present">
+            <section class="hour">
                 09:00 AM
             </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                10:00 AM
-            </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                11:00 AM
-            </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                12:00 PM
-            </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                01:00 PM
-            </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                02:00 PM
-            </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                03:00 PM
-            </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                04:00 PM
-            </section>
-        </section>
-        <section class="row">
-            <section class="hour present">
-                05:00 PM
-            </section>
+            <button class="saveBtn">Save</button>
         </section>
         <!-- class of future added for activities later in the day -->
-        <section class="row">
-            <section class="hour future">
+        <section class="row future">
+            <section class="hour">
+                10:00 AM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                11:00 AM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                12:00 PM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                01:00 PM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                02:00 PM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                03:00 PM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                04:00 PM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                05:00 PM
+            </section>
+            <button class="saveBtn">Save</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
                 06:00 PM
             </section>
+            <button class="saveBtn">Save</button>
         </section>
     </div>
 
@@ -105,7 +118,7 @@
     <!-- added jQuery 3.5.1 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- added DayJS as an alternative to moment.js -->
-    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js" integrity="sha512-kZ+x2gdehn6OZMWZSp3Vt5R+v9hQTYEATQwaUfWquhxbvNVAy6IRtYs7asdyxKUTqG0I5ZqBqnzcBrpnHJCAGw==" crossorigin="anonymous"></script>></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
