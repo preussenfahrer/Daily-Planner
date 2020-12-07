@@ -8,9 +8,11 @@ body {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
+    color: black;
+    border-left: 1px solid transparent;
+    padding: 3px;
+    margin-left: auto;
+    width: 75%;
   }
   
   .jumbotron {
@@ -25,9 +27,9 @@ body {
     font-size: 3.0em;
   }
   
-  .description{
-    white-space: pre-wrap;
-  }
+  /* .description{
+    white-space: pre-wrap;  
+  } */
   
   .time-block{
     text-align: center;
@@ -48,6 +50,10 @@ body {
     color: #000000;
     border-top: 1px solid #000000;
     padding: 0.5em;
+  }
+
+  .hours-container {
+    justify-content: center;
   }
   
   /* changed font color to black for easier visibility */

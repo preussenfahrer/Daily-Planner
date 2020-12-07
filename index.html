@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Document head with links to GoogleFonts and Bootstrap -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,94 +18,106 @@
     <header class="jumbotron">
         <h1 class="display-3"><em>Tabula Rasa</em></h1>
         <p class="lead">Each day is a new day, a blank slate. As a testament to this philosophy, <em>Tabula Rasa</em>
-             is a simple calendar application for keeping track of your schedule and making the most of your day, every day.</p>
+            is a simple calendar application for keeping track of your schedule and making the most of your day, every
+            day.</p>
         <p id="currentDay" class="lead"></p>
     </header>
 
     <!-- Rows containing hours of the day with option to input tasks  -->
     <div class="hours-container">
-        <!-- combined classes for hour block and put in past for coloring purposes -->
         <section class="row past">
             <section class="hour">
-                06:00 AM
+                06:00 am
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row past">
             <section class="hour">
-                07:00 AM
+                07:00 am
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row past">
             <section class="hour">
-                08:00 AM
+                08:00 am
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
-        <!-- class of present added for workday time -->
         <section class="row present">
             <section class="hour">
-                09:00 AM
+                09:00 am
             </section>
-            <button class="saveBtn">Save</button>
-        </section>
-        <!-- class of future added for activities later in the day -->
-        <section class="row future">
-            <section class="hour">
-                10:00 AM
-            </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                11:00 AM
+                10:00 am
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                12:00 PM
+                11:00 am
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                01:00 PM
+                12:00 pm
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                02:00 PM
+                01:00 pm
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                03:00 PM
+                02:00 pm
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                04:00 PM
+                03:00 pm
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                05:00 PM
+                04:00 pm
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
         <section class="row future">
             <section class="hour">
-                06:00 PM
+                05:00 pm
             </section>
-            <button class="saveBtn">Save</button>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
+        </section>
+        <section class="row future">
+            <section class="hour">
+                06:00 pm
+            </section>
+            <textarea class="description col-md9"></textarea>
+            <button class="saveBtn">Add to Tabula</button>
         </section>
     </div>
+
 
     <section class="time-block">
         <p>Test for time block</p>
@@ -122,5 +134,4 @@
     <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
-
 </html>
