@@ -54,6 +54,8 @@ body {
 
   .hours-container {
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   /* changed font color to black for easier visibility */
